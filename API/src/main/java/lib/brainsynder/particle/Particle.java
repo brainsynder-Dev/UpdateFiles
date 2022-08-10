@@ -126,7 +126,17 @@ public enum Particle {
     @EnumVersion(version = ServerVersion.v1_17) WAX_ON,
     @EnumVersion(version = ServerVersion.v1_17) WAX_OFF,
     @EnumVersion(version = ServerVersion.v1_17) ELECTRIC_SPARK,
-    @EnumVersion(version = ServerVersion.v1_17) SCRAPE
+    @EnumVersion(version = ServerVersion.v1_17) SCRAPE,
+
+
+    // ---- Particles added in v1_19_2 ---- //
+    @EnumVersion(version = ServerVersion.v1_19_2) WHITE_ASH, 
+    @EnumVersion(version = ServerVersion.v1_19_2) SONIC_BOOM, 
+    @EnumVersion(version = ServerVersion.v1_19_2) SCULK_SOUL, 
+    @EnumVersion(version = ServerVersion.v1_19_2) SCULK_CHARGE, 
+    @EnumVersion(version = ServerVersion.v1_19_2) SCULK_CHARGE_POP, 
+    @EnumVersion(version = ServerVersion.v1_19_2) SHRIEK, 
+    @EnumVersion(version = ServerVersion.v1_19_2) BLOCK_MARKER 
     ; // ---- END ---- //
 
     private final String name;
