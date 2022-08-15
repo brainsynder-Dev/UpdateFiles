@@ -33,6 +33,7 @@
         <module>Version_1.19.1</module>
         <module>Version_1.19.2</module>
         <module>Version_1.20</module>
+        <module>Version_1.21</module>
     </modules>
 
     <repositories>
